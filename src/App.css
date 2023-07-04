@@ -1,38 +1,35 @@
+/**********************************************
+Task # 2
+Full Name : Pengjun Guo
+Student ID#: 139448229
+Email : pguo9@myseneca.ca
+Section : NAA
+
+Authenticity Declaration: 
+I declare this submission is the result of my own work and has not been. shared with any other student or 3rd party 
+content provider. This submitted. 
+piece of work is entirely of my own creation. 
+***********************************************************************************************
+Date: Jun 27, 2023
+**********************************************/
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.weather-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  width: 200px;
 }
